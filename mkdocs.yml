@@ -1,0 +1,18 @@
+site_name: Ricci Flow 讨论班
+theme:
+  name: material
+  features:
+    - navigation.tabs
+
+markdown_extensions:
+  - pymdownx.math:
+      equation_options:
+        block:
+          class: arithmatex
+  - pymdownx.arithmatex:
+      generic: true
+      
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
