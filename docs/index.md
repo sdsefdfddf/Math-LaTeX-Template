@@ -1,4 +1,5 @@
-# Ricci Flow 基础
+Ricci 流的基础方程如下：
 
-这是测试公式是否渲染成功：
-$$ \frac{\partial g_{ij}}{\partial t} = -2 R_{ij} $$
+$$
+\frac{\partial g_{ij}}{\partial t} = -2 R_{ij}
+$$
